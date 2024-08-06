@@ -3,7 +3,7 @@ const { Sequelize } = require('sequelize');
 // postgresql://banco_diego_user:6zrwmW8U4DXHKCV36F72wh3M31ZjcOUp@dpg-cqp1g60gph6c73ff36b0-a.oregon-postgres.render.com/banco_diego
 
 // Configuração da conexão com o banco de dados PostgreSQL
-const sequelize = new Sequelize('banco_diego', 'banco_diego_user', '6zrwmW8U4DXHKCV36F72wh3M31ZjcOUp', {
+const sequelize = new Sequelize('banco_diego', 'banco_diego_user', '', {
     host: 'dpg-cqp1g60gph6c73ff36b0-a.oregon-postgres.render.com',
     dialect: 'postgres',
 });
